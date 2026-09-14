@@ -1,0 +1,18 @@
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local Studio places and generated state
+*.rbxl
+*.rbxlx
+/scripts/.studio-session.json
+/scripts/.luau-sourcemap.json
+/artifacts/
+/unimported/
+/docs/ASSET_IMPORT_RESULTS.json.lock
